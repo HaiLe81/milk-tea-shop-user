@@ -22,10 +22,10 @@ const App = () => {
 					<TopMenu />
 					<Switch>
 						<Route path="/account">
-							<Account/>
+							<Account />
 						</Route>
 						<Route path="/productdetail">
-							<ProductDetail/>
+							<ProductDetail />
 						</Route>
 						<Route path="/ordermodal">
 							<OrderModal />
