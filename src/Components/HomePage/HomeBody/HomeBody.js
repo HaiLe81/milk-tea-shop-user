@@ -5,25 +5,11 @@ import 'antd/dist/antd.css';
 import { TimeStore } from '../../TimeStore/TimeStore';
 import { DataContext } from '../../../context/DataProvider';
 import { Card } from 'antd';
-import MessengerCustomerChat from 'react-messenger-customer-chat'
 
 const { Meta } = Card;
 
 export const HomeBody = () => {
 	let { store: { products } } = useContext(DataContext);
-	// console.log('product', products);
-	// console.log('cate', productCategories);
-	// findcategoryNameById
-	// const findCategoryNameById = (id) => {
-	// 	let category = productCategories.find((item) => item.id === id);
-	// 	if (category !== undefined) return category.name;
-	// 	return 'unknown';
-	// };
-	// const fillterProductIsdeleted = (isDeleted) => {
-	// 	let foundisDeleted = products.find((item) => item.isDeleted === false);
-	// 	return true;
-	// }
-	// console.log('zz',products.price);
 	return (
 		// <Router>
 		<div className="home-main">
@@ -81,12 +67,6 @@ export const HomeBody = () => {
 					</div>
 				</div>
 				<div />
-			</div>
-			<div>
-				<MessengerCustomerChat
-					pageId="106379520893519"
-					appId="106379520893519"
-				/>
 			</div>
 		</div>
 		// </Router>
