@@ -13,7 +13,6 @@ import { Order } from './Components/Order/Order';
 import { OrderModal } from './Components/Order/OrderModal/OrderModal';
 import { ProductDetail } from './Components/Product/ProductDetail/ProductDetail';
 import { Account } from './Components/Account/Account';
-import MessengerCustomerChat from 'react-messenger-customer-chat'
 
 const App = () => {
 	return (
@@ -53,12 +52,6 @@ const App = () => {
 							<HomePage />
 						</Route>
 					</Switch>
-					<div>
-					<MessengerCustomerChat
-					pageId="106379520893519"
-					appId="106379520893519"
-				/>
-					</div>
 				</DataProvider>
 			</Router>
 		</div>
