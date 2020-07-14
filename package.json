@@ -6,7 +6,7 @@
     "antd": "^3.23.6",
     "bootstrap": "^4.3.1",
     "classnames": "^2.2.6",
-    "firebase": "^7.4.0",
+    "firebase": "^7.16.0",
     "paypal-checkout": "^4.0.305",
     "react": "^16.10.2",
     "react-addons-css-transition-group": "^15.6.2",
